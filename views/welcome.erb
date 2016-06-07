@@ -1,0 +1,17 @@
+
+<article>
+	<%if @username.blank?%>
+	<%= '<h1> Welcome Guest </h1>'%>
+	<% else %>
+	<%="<h1>Welcome #{@username}</h1>"%>
+	<%end%> 
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus eros ut tellus laoreet, ut scelerisque ex tristique. orci risus, iaculis sed laoreet nec, porttitor ut massa. Pellentesque a massa elementum, commodo felis ut, lobortis turpis. Curabitur viverra maximus iaculis. Mauris auctor urna blandit dui venenatis fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eget arcu quam. Duis et rutrum ex. Duis ac libero in sapien semper volutpat.
+	</p>
+
+	<br><a href = "/posts">Click Here to Create a Post</a></br>
+	<br><a href = "/followers">Click Here to See Your Followers</a></br>
+	<br><a href = "/find_followers">Click Here to Go To Gain More Followers</a></br>
+
+
+</article>
